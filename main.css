@@ -93,4 +93,8 @@ a.button {
   .topnav.responsive a.navbar-brand{
      padding-bottom:80px;
   }
+
+  .p h2 a.button{
+     text-align: center;
+  }
 }
