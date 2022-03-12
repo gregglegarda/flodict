@@ -54,8 +54,6 @@ body
 
 a.button {
   background-color: Transparent;
-  border: 2px solid white;
-  color: #556b2f;
   position: center;
   padding: 15px 32px;
   text-align: center;
@@ -121,8 +119,13 @@ a.button {
             text-align:center;
         }
         .div_container h2, .div_container p{
-
+            color: white;
             width: 100%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: white;
         }
 
 	}
@@ -141,8 +144,13 @@ a.button {
 
         }
         .div_container h2, .div_container p{
-
+            color: white;
             width: 100%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: white;
         }
 	}
 
@@ -159,8 +167,13 @@ a.button {
             text-align:center;
         }
         .div_container h2, .div_container p{
-
+            color: white;
             width: 100%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: white;
         }
 	}
 
@@ -177,9 +190,18 @@ a.button {
             padding-left:100px;
             text-align:left;
         }
-        .div_container h2, .div_container p{
-
+        .div_container h2{
+            color: #556b2f;
             width: 50%;
+        }
+        .div_container p{
+            color: white;
+            width: 45%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: #556b2f;
         }
 	}
 
@@ -197,9 +219,18 @@ a.button {
             padding-left:100px;
             text-align:left;
         }
-        .div_container h2, .div_container p{
-
+        .div_container h2{
+            color: #556b2f;
             width: 50%;
+        }
+        .div_container p{
+            color: white;
+            width: 45%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: #556b2f;
         }
 	}
 
@@ -217,9 +248,18 @@ a.button {
             padding-left:100px;
             text-align:left;
         }
-        .div_container h2, .div_container p{
-
+        .div_container h2{
+            color: #556b2f;
             width: 50%;
+        }
+        .div_container p{
+            color: white;
+            width: 45%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: #556b2f;
         }
 	}
 
@@ -235,9 +275,18 @@ a.button {
             padding-left:100px;
             text-align:left;
         }
-        .div_container h2, .div_container p{
-
+        .div_container h2{
+            color: #556b2f;
             width: 50%;
+        }
+        .div_container p{
+            color: white;
+            width: 45%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: #556b2f;
         }
 	}
 
@@ -253,8 +302,18 @@ a.button {
             padding-left:100px;
             text-align:left;
         }
-        .div_container h2, .div_container p{
+        .div_container h2{
+            color: #556b2f;
             width: 50%;
+        }
+        .div_container p{
+            color: white;
+            width: 45%;
+        }
+        a.button {
+            background-color: Transparent;
+            border: 2px solid white;
+            color: #556b2f;
         }
 	}
 
