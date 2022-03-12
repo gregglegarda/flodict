@@ -1,387 +1,101 @@
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-    /* Styles */
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-image: url('images/background 2.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      background-size: cover;
-      color: white;
-    }
-
-    .topnav {
-      overflow: hidden;
-      background-color: #ece3da;
-      font-family: 'Garet', sans-serif;
-
-    }
-
-    .topnav a.navbar-brand {
-      background-color: none;
-      padding: 0px;
-    }
-
-    .topnav a {
-      float: left;
-      display: block;
-      color: #556b2f;
-      text-align: center;
-      vertical-align: middle;
-      padding: 40px 70px 10px;
-      text-decoration: none;
-      font-size: 17px;
-      min-height: 50px;
-      height: 50px;
-    }
-
-    .topnav a:hover {
-      background-color: none;
-      font-weight: bold;
-    }
-
-    .topnav a.active {
-      background-color: none;
-    }
-
-    .topnav .icon {
-      display: none;
-    }
-
-    a.button {
-      background-color: Transparent;
-      border: 2px solid black;
-      color: #556b2f;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav a:not(:first-child) {display: none;}
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav.responsive {position: relative;}
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-
-      .topnav.responsive a.navbar-brand{
-         padding-bottom:80px;
-      }
-
-    }
-
+body
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  color: white;
 }
-/* Smartphones (landscape) ----------- */
-@media only screen
-	and (min-width : 321px) {
-	/* Styles */
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-image: url('images/background 2.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      background-size: cover;
-      color: white;
-    }
 
-    .topnav {
-      overflow: hidden;
-      background-color: #ece3da;
-      font-family: 'Garet', sans-serif;
 
-    }
-
-    .topnav a.navbar-brand {
-      background-color: none;
-      padding: 0px;
-    }
-
-    .topnav a {
-      float: left;
-      display: block;
-      color: #556b2f;
-      text-align: center;
-      vertical-align: middle;
-      padding: 40px 70px 10px;
-      text-decoration: none;
-      font-size: 17px;
-      min-height: 50px;
-      height: 50px;
-    }
-
-    .topnav a:hover {
-      background-color: none;
-      font-weight: bold;
-    }
-
-    .topnav a.active {
-      background-color: none;
-    }
-
-    .topnav .icon {
-      display: none;
-    }
-
-    a.button {
-      background-color: Transparent;
-      border: 2px solid black;
-      color: #556b2f;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav a:not(:first-child) {display: none;}
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav.responsive {position: relative;}
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-
-      .topnav.responsive a.navbar-brand{
-         padding-bottom:80px;
-      }
-
-    }
+.topnav {
+  overflow: hidden;
+  background-color: #ece3da;
+  font-family: 'Garet', sans-serif;
 
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
-body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-image: url('images/background 2.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      background-size: cover;
-      color: white;
-    }
+.topnav a.navbar-brand {
+  background-color: none;
+  padding: 0px;
+}
 
-    .topnav {
-      overflow: hidden;
-      background-color: #ece3da;
-      font-family: 'Garet', sans-serif;
+.topnav a {
+  float: left;
+  display: block;
+  color: #556b2f;
+  text-align: center;
+  vertical-align: middle;
+  padding: 40px 70px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  min-height: 50px;
+  height: 50px;
+}
 
-    }
+.topnav a:hover {
+  background-color: none;
+  font-weight: bold;
+}
 
-    .topnav a.navbar-brand {
-      background-color: none;
-      padding: 0px;
-    }
+.topnav a.active {
+  background-color: none;
+}
 
-    .topnav a {
-      float: left;
-      display: block;
-      color: #556b2f;
-      text-align: center;
-      vertical-align: middle;
-      padding: 40px 70px 10px;
-      text-decoration: none;
-      font-size: 17px;
-      min-height: 50px;
-      height: 50px;
-    }
+.topnav .icon {
+  display: none;
+}
 
-    .topnav a:hover {
-      background-color: none;
-      font-weight: bold;
-    }
+a.button {
+  background-color: Transparent;
+  border: 2px solid black;
+  color: #556b2f;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
-    .topnav a.active {
-      background-color: none;
-    }
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
-    .topnav .icon {
-      display: none;
-    }
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 
-    a.button {
-      background-color: Transparent;
-      border: 2px solid black;
-      color: #556b2f;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav a:not(:first-child) {display: none;}
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav.responsive {position: relative;}
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-
-      .topnav.responsive a.navbar-brand{
-         padding-bottom:80px;
-      }
-
-    }
+  .topnav.responsive a.navbar-brand{
+     padding-bottom:80px;
+  }
 
 }
 
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-/* Styles */
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-image: url('images/background.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      background-size: cover;
-      color: white;
-    }
 
-    .topnav {
-      overflow: hidden;
-      background-color: #ece3da;
-      font-family: 'Garet', sans-serif;
 
-    }
 
-    .topnav a.navbar-brand {
-      background-color: none;
-      padding: 0px;
-    }
 
-    .topnav a {
-      float: left;
-      display: block;
-      color: #556b2f;
-      text-align: center;
-      vertical-align: middle;
-      padding: 40px 70px 10px;
-      text-decoration: none;
-      font-size: 17px;
-      min-height: 50px;
-      height: 50px;
-    }
 
-    .topnav a:hover {
-      background-color: none;
-      font-weight: bold;
-    }
-
-    .topnav a.active {
-      background-color: none;
-    }
-
-    .topnav .icon {
-      display: none;
-    }
-
-    a.button {
-      background-color: Transparent;
-      border: 2px solid black;
-      color: #556b2f;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav a:not(:first-child) {display: none;}
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-
-    @media screen and (max-width: 1200px) {
-      .topnav.responsive {position: relative;}
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-
-      .topnav.responsive a.navbar-brand{
-         padding-bottom:80px;
-      }
-
-    }
-
-}
 
 
 
@@ -391,63 +105,152 @@ and (min-width : 1224px) {
     */
 
 	/* Smartphones (portrait and landscape) ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-device-width : 320px)
 	and (max-device-width : 480px) {
 	/* Styles */
-/*	}
+	    body
+        {
+            background-image: url('images/background 2.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* Smartphones (landscape) ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-width : 321px) {
 	/* Styles */
-/*	}
+	 body
+        {
+            background-image: url('images/background.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* Smartphones (portrait) ----------- */
-/*	@media only screen
+	@media only screen
 	and (max-width : 320px) {
 	/* Styles */
-/*	}
+	 body
+        {
+            background-image: url('images/background 2.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* iPads (portrait and landscape) ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-device-width : 768px)
 	and (max-device-width : 1024px) {
 	/* Styles */
-/*	}
+	    body
+        {
+            background-image: url('images/background 2.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* iPads (landscape) ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-device-width : 768px)
 	and (max-device-width : 1024px)
 	and (orientation : landscape) {
 	/* Styles */
-/*	}
+		 body
+        {
+            background-image: url('images/background.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* iPads (portrait) ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-device-width : 768px)
 	and (max-device-width : 1024px)
 	and (orientation : portrait) {
 	/* Styles */
-/*	}
+	    body
+        {
+            background-image: url('images/background 2.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* Desktops and laptops ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-width : 1224px) {
 	/* Styles */
-/*	}
+		 body
+        {
+            background-image: url('images/background.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* Large screens ----------- */
-/*	@media only screen
+	@media only screen
 	and (min-width : 1824px) {
 	/* Styles */
-/*	}
+		 body
+        {
+            background-image: url('images/background.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
 
 	/* iPhone 4 ----------- */
-/*	@media
+	@media
 	only screen and (-webkit-min-device-pixel-ratio : 1.5),
 	only screen and (min-device-pixel-ratio : 1.5) {
 	/* Styles */
-/*	}
-*/
+	    body
+        {
+            background-image: url('images/background 2.jpg');
+        }
+        .div_container{
+            padding-left:10px;
+        }
+        .div_container h2, .div_container p, .div_container a{
+            text-align:center;
+        }
+	}
