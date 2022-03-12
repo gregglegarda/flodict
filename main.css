@@ -7,7 +7,9 @@ body
   background-attachment: fixed;
   background-size: 100% 100%;
   background-size: cover;
+  background-position: center center;
   color: white;
+
 }
 
 
@@ -52,8 +54,9 @@ body
 
 a.button {
   background-color: Transparent;
-  border: 2px solid black;
+  border: 2px solid white;
   color: #556b2f;
+  position: center;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -112,14 +115,15 @@ a.button {
 	    body
         {
             background-image: url('images/background 2.jpg');
-	    background-size: contain;
         }
         .div_container{
             padding-left:10px;
         }
-        .div_container h2, .div_container p, .div_container a{
+        .div_container h2, .div_container p{
             text-align:center;
+            width: 100%;
         }
+
 	}
 
 	/* Smartphones (landscape) ----------- */
@@ -129,13 +133,14 @@ a.button {
 	 body
         {
             background-image: url('images/background 2.jpg');
-	    background-size: contain;
         }
         .div_container{
             padding-left:10px;
+
         }
-        .div_container h2, .div_container p, .div_container a{
+        .div_container h2, .div_container p{
             text-align:center;
+            width: 100%;
         }
 	}
 
@@ -146,13 +151,13 @@ a.button {
 	 body
         {
             background-image: url('images/background 2.jpg');
-	    background-size: contain;
         }
         .div_container{
             padding-left:10px;
         }
-        .div_container h2, .div_container p, .div_container a{
+        .div_container h2, .div_container p{
             text-align:center;
+            width: 100%;
         }
 	}
 
@@ -163,13 +168,14 @@ a.button {
 	/* Styles */
 	    body
         {
-            background-image: url('images/background 2.jpg');
+            background-image: url('images/background.jpg');
         }
         .div_container{
-            padding-left:10px;
+            padding-left:100px;
         }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
+        .div_container h2, .div_container p{
+            text-align:left;
+            width: 50%;
         }
 	}
 
@@ -184,10 +190,11 @@ a.button {
             background-image: url('images/background.jpg');
         }
         .div_container{
-            padding-left:10px;
+            padding-left:100px;
         }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
+        .div_container h2, .div_container p{
+            text-align:left;
+            width: 50%;
         }
 	}
 
@@ -199,13 +206,14 @@ a.button {
 	/* Styles */
 	    body
         {
-            background-image: url('images/background 2.jpg');
+            background-image: url('images/background.jpg');
         }
         .div_container{
-            padding-left:10px;
+            padding-left:100px;
         }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
+        .div_container h2, .div_container p{
+            text-align:left;
+            width: 50%;
         }
 	}
 
@@ -218,10 +226,11 @@ a.button {
             background-image: url('images/background.jpg');
         }
         .div_container{
-            padding-left:10px;
+            padding-left:100px;
         }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
+        .div_container h2, .div_container p{
+            text-align:left;
+            width: 50%;
         }
 	}
 
@@ -234,10 +243,11 @@ a.button {
             background-image: url('images/background.jpg');
         }
         .div_container{
-            padding-left:10px;
+            padding-left:100px;
         }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
+        .div_container h2, .div_container p{
+            text-align:left;
+            width: 50%;
         }
 	}
 
@@ -246,14 +256,6 @@ a.button {
 	only screen and (-webkit-min-device-pixel-ratio : 1.5),
 	only screen and (min-device-pixel-ratio : 1.5) {
 	/* Styles */
-	    body
-        {
-            background-image: url('images/background 2.jpg');
-        }
-        .div_container{
-            padding-left:10px;
-        }
-        .div_container h2, .div_container p, .div_container a{
-            text-align:center;
-        }
+
+
 	}
