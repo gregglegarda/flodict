@@ -2,7 +2,7 @@ body
 {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('images/background.jpg');
+  background-image: url('images/background3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -110,9 +110,9 @@ a.button {
 	and (min-device-width : 320px)
 	and (max-device-width : 480px) {
 	/* Styles */
-	    body
+        body
         {
-            background-image: url('images/background 2.JPG');
+            background-image: url('images/logo.png');
         }
         .div_container{
             padding-left:10px;
@@ -123,7 +123,7 @@ a.button {
             width: 100%;
         }
         a.button {
-            background-color: Transparent;
+            background-color: white;
             border: 2px solid white;
             color: white;
         }
@@ -136,7 +136,7 @@ a.button {
 	/* Styles */
 	 body
         {
-            background-image: url('images/background 2.JPG');
+            background-image: url('images/background2.jpg');
         }
         .div_container{
             padding-left:10px;
@@ -160,7 +160,7 @@ a.button {
 	/* Styles */
 	 body
         {
-            background-image: url('images/background 2.JPG');
+            background-image: url('images/background1.jpg');
         }
         .div_container{
             padding-left:10px;
@@ -184,7 +184,7 @@ a.button {
 	/* Styles */
 	    body
         {
-            background-image: url('images/background.jpg');
+            background-image: url('images/logo.png');
         }
         .div_container{
             padding-left:100px;
@@ -213,7 +213,7 @@ a.button {
 	/* Styles */
 		 body
         {
-            background-image: url('images/background.jpg');
+            background-image: url('images/logo.png');
         }
         .div_container{
             padding-left:100px;
@@ -242,7 +242,7 @@ a.button {
 	/* Styles */
 	    body
         {
-            background-image: url('images/background.jpg');
+            background-image: url('images/logo.png');
         }
         .div_container{
             padding-left:100px;
@@ -269,7 +269,7 @@ a.button {
 	/* Styles */
 		 body
         {
-            background-image: url('images/background.jpg');
+            background-image: url('images/background3.jpg');
         }
         .div_container{
             padding-left:100px;
@@ -296,7 +296,7 @@ a.button {
 	/* Styles */
 		 body
         {
-            background-image: url('images/background.jpg');
+            background-image: url('images/background3.jpg');
         }
         .div_container{
             padding-left:100px;
