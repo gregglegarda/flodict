@@ -2,7 +2,6 @@ body
 {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('images/background3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -12,20 +11,36 @@ body
 
 }
 
+body a.button {
+  background-color: Transparent;
+  position: center;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid white;
+}
 
 
+
+
+
+
+
+/*------------------------   NAVIGATION  ------------------------ */
 .topnav {
   overflow: hidden;
   background-color: #ece3da;
   font-family: 'Garet', sans-serif;
-
 }
-
 .topnav a.navbar-brand {
   background-color: none;
   padding: 0px;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -38,30 +53,15 @@ body
   min-height: 50px;
   height: 50px;
 }
-
 .topnav a:hover {
   background-color: none;
-  font-weight: bold;
+  font-size: 20px;
 }
-
 .topnav a.active {
   background-color: none;
 }
-
 .topnav .icon {
   display: none;
-}
-
-a.button {
-  background-color: Transparent;
-  position: center;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
@@ -71,7 +71,6 @@ a.button {
     display: block;
   }
 }
-
 @media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -84,11 +83,9 @@ a.button {
     display: block;
     text-align: center;
   }
-
   .topnav.responsive a.navbar-brand{
      padding-bottom:80px;
   }
-
 }
 
 
@@ -97,22 +94,43 @@ a.button {
 
 
 
+/*------------------------   ABOUT  ------------------------ */
+body.about{  background-image: none; background-color: black;}
+.div_about_container{
+    padding-left:10px;
+    text-align:center;
+}
+.div_about_container h2, .div_container p{
+    color: white;
+    width: 100%;
+}
+div_about_container a.button {
+    background-color: white;
+    border: 2px solid white;
+    color: blue;
+}
 
 
 
-/*TEMPLATES*/
+
+/*------------------------   CONTACT  ------------------------ */
+body.contact{  background-image: url('images/background5.png'); background-color: #ece3da;}
+
+
+/*------------------------  HOME  --------------------------*/
     /*
 	* Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
     */
+    body.home{  background-image: url('images/background3.jpg');}
 
 	/* Smartphones (portrait and landscape) ----------- */
 	@media only screen
 	and (min-device-width : 320px)
 	and (max-device-width : 480px) {
 	/* Styles */
-        body
+        body.home
         {
-            background-image: url('images/logo.png');
+            background-image: url('images/background4.jpg');
         }
         .div_container{
             padding-left:10px;
@@ -122,8 +140,8 @@ a.button {
             color: white;
             width: 100%;
         }
-        a.button {
-            background-color: white;
+        .div_container a.button {
+            background-color: Transparent;
             border: 2px solid white;
             color: white;
         }
@@ -134,7 +152,7 @@ a.button {
 	@media only screen
 	and (min-width : 321px) {
 	/* Styles */
-	 body
+	 body.home
         {
             background-image: url('images/background2.jpg');
         }
@@ -147,7 +165,7 @@ a.button {
             color: white;
             width: 100%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: white;
@@ -158,7 +176,7 @@ a.button {
 	@media only screen
 	and (max-width : 320px) {
 	/* Styles */
-	 body
+	 body.home
         {
             background-image: url('images/background1.jpg');
         }
@@ -170,7 +188,7 @@ a.button {
             color: white;
             width: 100%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: white;
@@ -182,9 +200,9 @@ a.button {
 	and (min-device-width : 768px)
 	and (max-device-width : 1024px) {
 	/* Styles */
-	    body
+	    body.home
         {
-            background-image: url('images/logo.png');
+            background-image: url('images/background4.jpg');
         }
         .div_container{
             padding-left:100px;
@@ -198,7 +216,7 @@ a.button {
             color: white;
             width: 45%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: #556b2f;
@@ -211,9 +229,9 @@ a.button {
 	and (max-device-width : 1024px)
 	and (orientation : landscape) {
 	/* Styles */
-		 body
+		body.home
         {
-            background-image: url('images/logo.png');
+            background-image: url('images/background4.jpg');
         }
         .div_container{
             padding-left:100px;
@@ -227,7 +245,7 @@ a.button {
             color: white;
             width: 45%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: #556b2f;
@@ -240,9 +258,9 @@ a.button {
 	and (max-device-width : 1024px)
 	and (orientation : portrait) {
 	/* Styles */
-	    body
+	    body.home
         {
-            background-image: url('images/logo.png');
+            background-image: url('images/background4.jpg');
         }
         .div_container{
             padding-left:100px;
@@ -256,7 +274,7 @@ a.button {
             color: white;
             width: 45%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: #556b2f;
@@ -267,7 +285,7 @@ a.button {
 	@media only screen
 	and (min-width : 1224px) {
 	/* Styles */
-		 body
+		body.home
         {
             background-image: url('images/background3.jpg');
         }
@@ -283,7 +301,7 @@ a.button {
             color: white;
             width: 45%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: #556b2f;
@@ -294,7 +312,7 @@ a.button {
 	@media only screen
 	and (min-width : 1824px) {
 	/* Styles */
-		 body
+		body.home
         {
             background-image: url('images/background3.jpg');
         }
@@ -310,7 +328,7 @@ a.button {
             color: white;
             width: 45%;
         }
-        a.button {
+        .div_container a.button {
             background-color: Transparent;
             border: 2px solid white;
             color: #556b2f;
